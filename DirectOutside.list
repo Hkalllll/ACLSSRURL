@@ -1,9 +1,4 @@
 # 内容：本地出局
-DOMAIN-SUFFIX,ip6-localhost
-DOMAIN-SUFFIX,ip6-loopback
-DOMAIN-SUFFIX,lan
-DOMAIN-SUFFIX,local
-DOMAIN-SUFFIX,localhost
 DOMAIN-SUFFIX,vcsa01.tobizit.com
 DOMAIN-SUFFIX,www.freewhale.club
 DOMAIN-SUFFIX,www.baidu.com
