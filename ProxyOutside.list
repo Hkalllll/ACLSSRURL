@@ -1,5 +1,6 @@
-#内容：代理出局
-DOMAIN-SUFFIX,cisco.com
+# 内容：本地出局 匹配域名
+#内容：本地出局 匹配关键字
 DOMAIN-KEYWORD,cisco
 DOMAIN-KEYWORD,checkpoint
 DOMAIN-KEYWORD,fortinet
+#内容：本地出局 匹配后缀
