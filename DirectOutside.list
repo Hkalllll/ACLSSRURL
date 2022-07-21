@@ -1,6 +1,7 @@
 # 内容：本地出局 匹配域名
 DOMAIN,vcsa01.tobizit.com
 DOMAIN,www.freewhale.club
+DOMAIN,www.baidu.com
 #内容：本地出局 匹配关键字
 DOMAIN-KEYWORD,huawei
 DOMAIN-KEYWORD,qq
