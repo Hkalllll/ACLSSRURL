@@ -1,7 +1,8 @@
-# 内容：本地出局
-DOMAIN-SUFFIX,vcsa01.tobizit.com
-DOMAIN-SUFFIX,www.freewhale.club
-DOMAIN-SUFFIX,www.baidu.com
-DOMAIN-SUFFIX,ailiyun.com
+# 内容：本地出局 匹配域名
+DOMAIN,vcsa01.tobizit.com
+DOMAIN,www.freewhale.club
+#内容：本地出局 匹配关键字
 DOMAIN-KEYWORD,huawei
 DOMAIN-KEYWORD,qq
+#内容：本地出局 匹配后缀
+DOMAIN-SUFFIX,ailiyun.com
