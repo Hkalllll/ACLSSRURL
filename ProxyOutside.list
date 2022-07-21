@@ -1,1 +1,5 @@
-1
+#内容：代理出局
+DOMAIN-SUFFIX,cisco.com
+DOMAIN-KEYWORD,cisco
+DOMAIN-KEYWORD,checkpoint
+DOMAIN-KEYWORD,fortinet
