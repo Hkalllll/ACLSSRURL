@@ -4,3 +4,4 @@
 DOMAIN-KEYWORD,download
 #内容：本地出局 匹配后缀
 #DOMAIN-SUFFIX,ailiyun.com
+DOMAIN-SUFFIX,download*.*.com
