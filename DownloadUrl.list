@@ -4,3 +4,5 @@ DOMAIN,download-ssc.cisco.com
 DOMAIN-KEYWORD,download
 #内容：本地出局 匹配后缀
 #DOMAIN-SUFFIX,download*.*.com
+#内容：本地出局 匹配程序
+PROCESS-NAME,chrome.exe
