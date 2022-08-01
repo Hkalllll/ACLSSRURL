@@ -1,5 +1,5 @@
 #正则表达式匹配带关键字的域名
-URL-REGEX,(.+.|^).*(download).*\.(cn|com)
+#URL-REGEX,(.+.|^).*(download).*\.(cn|com)
 # 内容：本地出局 匹配域名
 DOMAIN,download-ssc.cisco.com
 #内容：本地出局 匹配关键字
