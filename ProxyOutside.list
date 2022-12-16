@@ -1,4 +1,5 @@
 # 内容：本地出局 匹配域名
+DOMAIN,onedrive.live.com
 #内容：本地出局 匹配关键字
 DOMAIN-KEYWORD,cisco
 DOMAIN-KEYWORD,checkpoint
