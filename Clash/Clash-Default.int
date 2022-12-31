@@ -6,7 +6,6 @@ ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
 ruleset=🏠 本地出局,https://raw.githubusercontent.com/Hkalllll/ACLSSRURL/main/Acl%20List/MeDirect-1.list
-
 ruleset=🚀 代理出局,https://raw.githubusercontent.com/Hkalllll/ACLSSRURL/main/Acl%20List/MeProxy-1.list
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
