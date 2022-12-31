@@ -9,3 +9,5 @@ DOMAIN-KEYWORD,huawei
 DOMAIN-KEYWORD,qq
 #内容：本地出局 匹配后缀
 DOMAIN-SUFFIX,ailiyun.com
+#内容：本地出局，匹配IP
+IP-CIDR,118.175.29.90/32
