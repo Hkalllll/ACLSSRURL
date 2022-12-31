@@ -1,1 +1,51 @@
-#默认的Open Clash 策略
+ruleset=🏠 本地出局,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=🏠 本地出局,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
+ruleset=🏠 本地出局,https://raw.githubusercontent.com/Hkalllll/ACLSSRURL/main/DirectOutside.list
+ruleset=🚀 代理出局,https://raw.githubusercontent.com/Hkalllll/ACLSSRURL/main/ProxyOutside.list
+ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
+ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xbox.list
+ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetflixIP.list
+ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
+ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
+ruleset=🚗 下载分流,https://raw.githubusercontent.com/Hkalllll/ACLSSRURL/main/DownloadUrl.list
+ruleset=🏠 本地出局,https://raw.githubusercontent.com/Hkalllll/ACLSSRURL/main/CNIP.list
+ruleset=🏠 本地出局,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+ruleset=🏠 本地出局,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🏠 本地出局,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🏠 本地出局,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=🚀 代理出局,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+ruleset=🚀 代理出局,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+ruleset=🏠 本地出局,[]GEOIP,CN
+ruleset=🐟 漏网之鱼,[]FINAL
+
+
+
+custom_proxy_group=🚀 代理出局`select`[]♻️ 自动选择全节点`[]♻️ 自动选择香港节点`[]♻️ 自动选择新加坡节点`[]♻️ 自动选择日本节点`[]♻️ 自动选择美国节点`[]♻️ 自动选择台湾节点`[]♻️ 自动选择韩国节点`[]DIRECT`.*
+custom_proxy_group=🏠 本地出局`select`[]DIRECT`[]♻️ 自动选择全节点`[]♻️ 自动选择香港节点`[]♻️ 自动选择新加坡节点`[]♻️ 自动选择日本节点`[]♻️ 自动选择美国节点`[]♻️ 自动选择台湾节点`[]♻️ 自动选择韩国节点`.*
+custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]♻️ 自动选择全节点`[]♻️ 自动选择香港节点`[]♻️ 自动选择新加坡节点`[]♻️ 自动选择日本节点`[]♻️ 自动选择美国节点`[]♻️ 自动选择台湾节点`[]♻️ 自动选择韩国节点`.*
+custom_proxy_group=🎥 奈飞视频`select`[]♻️ 自动选择香港节点`[]♻️ 自动选择新加坡节点`[]♻️ 自动选择日本节点`[]♻️ 自动选择美国节点`[]♻️ 自动选择台湾节点`[]♻️ 自动选择韩国节点`[]♻️ 自动选择全节点`.*`[]DIRECT
+custom_proxy_group=📺 哔哩哔哩`select`[]DIRECT`[]♻️ 自动选择全节点`[]♻️ 自动选择香港节点`[]♻️ 自动选择新加坡节点`[]♻️ 自动选择日本节点`[]♻️ 自动选择美国节点`[]♻️ 自动选择台湾节点`[]♻️ 自动选择韩国节点`(🇹🇼|🇭🇰)
+custom_proxy_group=🚗 下载分流`select`[]DIRECT`[]🚀 代理出局`.*
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 代理出局`[]DIRECT
+custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
+custom_proxy_group=♻️ 自动选择全节点`url-test`.*`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=♻️ 自动选择香港节点`url-test`(港|HK|Hong Kong|🇭🇰|HongKong)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=♻️ 自动选择新加坡节点`url-test`(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=♻️ 自动选择日本节点`url-test`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=♻️ 自动选择美国节点`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=♻️ 自动选择台湾节点`url-test`(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=♻️ 自动选择韩国节点`url-test`(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`180
+#custom_proxy_group=🔯 故障转移`fallback`。*`http://www.gstatic.com/generate_204`180
+#custom_proxy_group=🔮 负载均衡`load-balance`.*`http://www.gstatic.com/generate_204`180
+
+#`url-test`(?=.*(港|HK|Hong Kong|🇭🇰|HongKong))^((?!(自动选择|5x)).)*$`
+
+enable_rule_generator=true
+overwrite_original_rules=true
