@@ -5,6 +5,7 @@ DOMAIN,bn1304.storage.live.com
 DOMAIN,www.freewhale.us
 DOMAIN,www.baidu.com
 #内容：本地出局 匹配关键字
+DOMAIN-KEYWORD,tailing
 DOMAIN-KEYWORD,huawei
 DOMAIN-KEYWORD,qq
 #内容：本地出局 匹配后缀
