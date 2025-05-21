@@ -1,7 +1,9 @@
 # 内容：本地出局 匹配域名
+DOMAIN,chatgpt.com
 #内容：本地出局 匹配关键字
 DOMAIN-KEYWORD,cisco
 DOMAIN-KEYWORD,checkpoint
 DOMAIN-KEYWORD,fortinet
 DOMAIN-KEYWORD,onedrive
 #内容：本地出局 匹配后缀
+
